@@ -1,0 +1,41 @@
+.posts_container{
+    /* display: flex; */
+    border: 1px solid lightgray;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.posts_header{
+    display: flex;
+    /* position: sticky; */
+}
+
+.post_name{
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+.post_description{
+    font-size: 0.8rem;
+    
+}
+.ava{
+    display: flex;
+    position: sticky;
+}
+.posts_body{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: gray;
+}
+.posts_info{
+    margin-left: 15px;
+}
+.post_options{
+    display: flex;
+    color: gray;
+}
